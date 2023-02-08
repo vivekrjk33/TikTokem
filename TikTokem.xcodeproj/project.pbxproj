@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F41CBFD210A27587392FBCA /* Pods_TikTokem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F5D3A13EC1FA7C9E6D70E7 /* Pods_TikTokem.framework */; };
 		9A55F14129924CF7003A586A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F14029924CF7003A586A /* AppDelegate.swift */; };
 		9A55F14329924CF7003A586A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F14229924CF7003A586A /* SceneDelegate.swift */; };
 		9A55F14529924CF7003A586A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F14429924CF7003A586A /* ViewController.swift */; };
 		9A55F14829924CF7003A586A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A55F14629924CF7003A586A /* Main.storyboard */; };
 		9A55F14A29924CFB003A586A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A55F14929924CFB003A586A /* Assets.xcassets */; };
 		9A55F14D29924CFB003A586A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A55F14B29924CFB003A586A /* LaunchScreen.storyboard */; };
+		9A55F1552992509E003A586A /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F1542992509E003A586A /* VideoCollectionViewCell.swift */; };
+		9A55F157299252BD003A586A /* simple.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A55F156299252BD003A586A /* simple.json */; };
+		9A55F15929925341003A586A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55F15829925341003A586A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20F5D3A13EC1FA7C9E6D70E7 /* Pods_TikTokem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikTokem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		437A8AFBBCDF2C5F0D3A841A /* Pods-TikTokem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTokem.debug.xcconfig"; path = "Target Support Files/Pods-TikTokem/Pods-TikTokem.debug.xcconfig"; sourceTree = "<group>"; };
+		8F4B42E3F58148BB11B5785B /* Pods-TikTokem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTokem.release.xcconfig"; path = "Target Support Files/Pods-TikTokem/Pods-TikTokem.release.xcconfig"; sourceTree = "<group>"; };
 		9A55F13D29924CF7003A586A /* TikTokem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A55F14029924CF7003A586A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A55F14229924CF7003A586A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		9A55F14929924CFB003A586A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A55F14C29924CFB003A586A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A55F14E29924CFB003A586A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A55F1542992509E003A586A /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		9A55F156299252BD003A586A /* simple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple.json; sourceTree = "<group>"; };
+		9A55F15829925341003A586A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F41CBFD210A27587392FBCA /* Pods_TikTokem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87D37AC37C1D73191DC4CC29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F5D3A13EC1FA7C9E6D70E7 /* Pods_TikTokem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8889954BAF5CF0A8CBA28A36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				437A8AFBBCDF2C5F0D3A841A /* Pods-TikTokem.debug.xcconfig */,
+				8F4B42E3F58148BB11B5785B /* Pods-TikTokem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9A55F13429924CF7003A586A = {
 			isa = PBXGroup;
 			children = (
 				9A55F13F29924CF7003A586A /* TikTokem */,
 				9A55F13E29924CF7003A586A /* Products */,
+				8889954BAF5CF0A8CBA28A36 /* Pods */,
+				87D37AC37C1D73191DC4CC29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +88,10 @@
 			children = (
 				9A55F14029924CF7003A586A /* AppDelegate.swift */,
 				9A55F14229924CF7003A586A /* SceneDelegate.swift */,
+				9A55F15829925341003A586A /* Model.swift */,
 				9A55F14429924CF7003A586A /* ViewController.swift */,
+				9A55F1542992509E003A586A /* VideoCollectionViewCell.swift */,
+				9A55F156299252BD003A586A /* simple.json */,
 				9A55F14629924CF7003A586A /* Main.storyboard */,
 				9A55F14929924CFB003A586A /* Assets.xcassets */,
 				9A55F14B29924CFB003A586A /* LaunchScreen.storyboard */,
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A55F15129924CFB003A586A /* Build configuration list for PBXNativeTarget "TikTokem" */;
 			buildPhases = (
+				C3AAF2D283399A6643AB102B /* [CP] Check Pods Manifest.lock */,
 				9A55F13929924CF7003A586A /* Sources */,
 				9A55F13A29924CF7003A586A /* Frameworks */,
 				9A55F13B29924CF7003A586A /* Resources */,
+				C9E7D8598080A1D3E0EAA5AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A55F14D29924CFB003A586A /* LaunchScreen.storyboard in Resources */,
+				9A55F157299252BD003A586A /* simple.json in Resources */,
 				9A55F14A29924CFB003A586A /* Assets.xcassets in Resources */,
 				9A55F14829924CF7003A586A /* Main.storyboard in Resources */,
 			);
@@ -133,13 +169,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C3AAF2D283399A6643AB102B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TikTokem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E7D8598080A1D3E0EAA5AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikTokem/Pods-TikTokem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikTokem/Pods-TikTokem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TikTokem/Pods-TikTokem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A55F13929924CF7003A586A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A55F15929925341003A586A /* Model.swift in Sources */,
 				9A55F14529924CF7003A586A /* ViewController.swift in Sources */,
 				9A55F14129924CF7003A586A /* AppDelegate.swift in Sources */,
+				9A55F1552992509E003A586A /* VideoCollectionViewCell.swift in Sources */,
 				9A55F14329924CF7003A586A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +364,7 @@
 		};
 		9A55F15229924CFB003A586A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437A8AFBBCDF2C5F0D3A841A /* Pods-TikTokem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +393,7 @@
 		};
 		9A55F15329924CFB003A586A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4B42E3F58148BB11B5785B /* Pods-TikTokem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
